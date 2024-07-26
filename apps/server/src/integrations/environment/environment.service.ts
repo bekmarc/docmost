@@ -31,7 +31,7 @@ export class EnvironmentService {
   getRedisUrl(): string {
     return this.configService.get<string>(
       'REDIS_URL',
-      'redis://localhost:6379',
+      'redis://172.26.210.197:6379',
     );
   }
 
